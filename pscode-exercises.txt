@@ -1,0 +1,50 @@
+Exercise 1
+
+1num1 = int(input("Enter Number 1 : "))
+num2 = int(input("Enter Number 2 : "))
+result = num1 + num2
+print(num1," + ",num2," = ",result)
+
+1. Ask the user for input:
+   - Read 'num1' (the first number) from the user.
+   - Read 'num2' (the second number) from the user.
+
+2. Calculate the sum:
+   - 'sum' = 'num1' + 'num2'
+
+3. Display the result:
+   - Print "The sum of", 'num1', "and", 'num2', "is", 'sum'.
+
+
+Exercise 2
+
+1. Ask the user for input:
+   - Read 'num' from the user.
+
+2. Check if the number is even or odd:
+   a. If 'num' % 2 == 0:
+      - Print "'num' is an even number."
+   b. Else:
+      - Print "'num' is an odd number."
+
+
+Exercise 3
+
+1. Initialize variables:
+   - sum = 0
+   - min_num = infinity
+   - max_num = -infinity
+
+2. Repeat the following steps five times:
+   a. Read input number (let's call it 'num').
+   b. Add 'num' to 'sum'.
+   c. If 'num' is less than 'min_num', update 'min_num' to 'num'.
+   d. If 'num' is greater than 'max_num', update 'max_num' to 'num'.
+
+3. Calculate the average:
+   - average = sum / 5
+
+4. Output results:
+   - Print "Average: " + average
+   - Print "Minimum: " + min_num
+   - Print "Maximum: " + max_num
